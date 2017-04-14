@@ -64,4 +64,4 @@ class card(object):
 	#	and y fields
 	def pointOnCard(point):
 		pos = self.position
-		#return ((point.x >= pos.x && point.x <= (pos.x + self.width)))&&(point.y >= pos.y && point.y <= (pos.y + self.height)))
+		return ((point.x >= pos.x && point.x <= (pos.x + self.width))&&(point.y >= pos.y && point.y <= (pos.y + self.height)))
